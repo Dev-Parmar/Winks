@@ -123,7 +123,7 @@ if ($membership != 'premium') {
                 $database->isSeen("$seen", "$receiverID");                //to set the messages to seen
             }
 
-            foreach ($message as $value) {
+            foreach ($message as $value) {                               //to check if there are any messages or not
                 if (empty($value)) {
                     $toShow = false;
                 } else {

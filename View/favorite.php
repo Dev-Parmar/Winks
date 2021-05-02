@@ -109,7 +109,7 @@ if ($membership != 'premium'){
 
             $fav = $result->getFav();
 
-            $explodeFav = explode(" ", $fav);
+            $explodeFav = explode(" ", $fav);                          //to convert the extracted favorites users string into array
 
             foreach ($explodeFav as $value) {
                 if (empty($value)|| $value == "") {

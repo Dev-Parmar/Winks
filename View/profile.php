@@ -92,7 +92,7 @@ $image = $foundUser->getImage();
 </header>
 <?php
 
-if (trim($image) == "default.png") {
+if (trim($image) == "default.png") {               //show image if the image is uploaded or else show default image
     $showImg = false;
 } else {
     $showImg = true;
@@ -114,10 +114,10 @@ if (trim($image) == "default.png") {
         </div>
     </div>
 
-    <div class="right-info">
+    <div class="right-info">                                
 
         <?php
-        if ($_SESSION['uid'] != $uid) {
+        if ($_SESSION['uid'] != $uid) {                                 //to keep restrictions and not letting other people edit your profile
 
             $read = 'readonly';
             $dis = 'disabled';
@@ -153,7 +153,7 @@ if (trim($image) == "default.png") {
                     </div>
                 </div>
 
-                <?php
+                <?php                               
                 if ($gender == 'male') {
                     $maleInput = '<option value="male" selected>Male</option>';
                 } else {

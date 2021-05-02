@@ -92,7 +92,7 @@ if ($membership != 'premium'){
 
         $result = $database->findNotis("$uid");           //find the notifications for the given uid
 
-        if (empty($result) || $result == "") {
+        if (empty($result) || $result == "") {                //to check if there are any new notifications or not
             $toShow = false;
 
         } else {
@@ -113,11 +113,7 @@ if ($membership != 'premium'){
             echo '<div style="text-align: center"><h2>No Notifications!</h2></div>';
         }
 
-
-
         ?>
-
-
     </div>
 </div>
 </body>

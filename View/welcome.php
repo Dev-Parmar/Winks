@@ -92,7 +92,7 @@ $uid = $_SESSION['uid'];
 
         <?php
 
-        if (isset($_GET['search'])) {
+        if (isset($_GET['search'])) {                     //to show searched user when someone searches the username 
             $username = $_GET['search'];
             $database = new Database();
 
@@ -106,13 +106,13 @@ $uid = $_SESSION['uid'];
 
         } else {
 
-            if (isset($_GET['sort'])){
+            if (isset($_GET['sort'])){                                
 
-                $sort = $_GET['sort'];
+                $sort = $_GET['sort'];                                     
 
                 $gender = $_SESSION['gender'];
 
-                if ($gender == 'male'){
+                if ($gender == 'male'){                                     //to show other gender people to meet new people
                     $search = 'female';
                 }elseif($gender == 'female'){
                     $search = 'male';
@@ -122,7 +122,7 @@ $uid = $_SESSION['uid'];
 
 
                 switch ($sort){
-                    case 'city':
+                    case 'city':                                  //sort according to the location
 
                         $city = strtolower($_SESSION['city']);
 
@@ -135,7 +135,7 @@ $uid = $_SESSION['uid'];
                         }
                         break;
 
-                    case 'age':
+                    case 'age':                          //sort according to the age
 
                         $age = $_SESSION['age'];
                         $database = new database();
@@ -147,7 +147,7 @@ $uid = $_SESSION['uid'];
                         }
                         break;
 
-                    case 'winks':
+                    case 'winks':                                  //sort according to the popularity
 
                         $database =  new database();
 

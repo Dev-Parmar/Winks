@@ -22,7 +22,7 @@ if (isset($_SESSION['alert'])) {
     unset($_SESSION['alert']);
 }
 
-if ($membership != 'premium'){
+if ($membership != 'premium'){                                 //to check if the user is a premium member and give restrictions
     $_SESSION['alert'] = "<script>alert('You need to be a Premium User to see who has Added you in their Favorite List!')</script>";
     header("Location: welcome.php");
 }

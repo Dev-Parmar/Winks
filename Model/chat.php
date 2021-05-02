@@ -141,7 +141,7 @@ class chat
     }
 
 
-    public function showMessages()
+    public function showMessages()          //to show all the messages in the chat
     {
         if ($this->getType() == 'message') {
             $database = new database();

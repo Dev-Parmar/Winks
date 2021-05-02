@@ -94,7 +94,7 @@ class users
     }
 
 
-    public function favInfo()
+    public function favInfo()               //to print all the info in the favorite list
     {
         echo '<div class="card-deck">';
         echo '<div class="card">';
@@ -121,7 +121,7 @@ class users
     }
 
 
-    public function printInfo()
+    public function printInfo()                     //to print the info to the profile page
     {
         echo '<div class="card-deck">';
         echo '<div class="card">';
@@ -148,7 +148,7 @@ class users
     }
 
 
-    public function favUser()
+    public function favUser()                   //to print the info if he is in the anyone's favorite list
     {
         echo '<div class="card-deck">';
         echo '<div class="card">';
