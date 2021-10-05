@@ -2,13 +2,6 @@
 
 -------------------------------------------------------------------
 
-# Group Members 
-
-1) Dev Parmar 
-2) Raj Patel
-
--------------------------------------------------------------------
-
 # What the project is about?
 (use 'admin' as username and password for testing purpose)
 (example databse already in the the file)
@@ -27,27 +20,3 @@
 - It also sorts the people: 1) According to the age  2)According to the Popularity(more winks)  3)According to the city
 
 
------------------------------------------------------------------------
-
-# Who did what?
-
------ Dev Parmar 
-
-- Made the Profile page for editing the profile and adding photo and to the database and saving the photo in a specific folder with specific name
-- A Favorite List to add users into it. Also a famous page where you can see who has added you into their favorite list
-- Made the Notifications so that it gives messages when someone winked at you or add you to their favorite list.
-- Made a chat to talk with specific person. Also able to see if the other person has seen the message or not.
-- Search the user using username. Sort the list using location, age or popularity.
-- Restrictions to guest and regular users and only premium users able to user premium things.
-
-
------ Raj Patel
-
-- Made the Database for users where the users will add his details which later will be used to find users and add details to it.
-- The register page to get the details of the user and save it into the database.
-- Validate the input which user has input so that it doesnt have same username or any empty string to crash the code.
-- The login page, to check username and password from the database and validate it before letting any user in.
-- All the users having unique username or else no access.
-- Checking the username, password and then letting the users to enter the site.
-- Logout to destroy the session and logging the user out.
-- Few CSS of register and login page.
