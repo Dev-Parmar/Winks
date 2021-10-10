@@ -74,7 +74,7 @@ class chat
         switch (trim($this->getType())) {
 
             case 'wink':
-                echo '<div class="card" style="background-color: #deb8cd;">';
+                echo '<div class="card" style="background-color: #f3e1d9;">';
                 echo '<div class="card-header">WINK!<span class="float-end">' . $this->getTime() . '</span></div>';
                 echo '<div class="card-body">';
                 echo '<h5 class="card-title">' . $whoUser . ' winked at You!</h5>';
@@ -90,7 +90,7 @@ class chat
                 break;
 
             case 'message':
-                echo '<div class="card" style="background-color: #deb8cd;">';
+                echo '<div class="card" style="background-color: #f3e1d9;">';
                 echo '<div class="card-header">New Message!<span class="float-end">' . $this->getTime() . '</span></div>';
                 echo '<div class="card-body">';
                 echo '<h5 class="card-title">' . $whoUser . ' sent you a Message!</h5>';
@@ -107,7 +107,7 @@ class chat
                 break;
 
             case 'addFav':
-                echo '<div class="card" style="background-color: #deb8cd;">';
+                echo '<div class="card" style="background-color: #f3e1d9;">';
                 echo '<div class="card-header">Favorites!<span class="float-end">' . $this->getTime() . '</span></div>';
                 echo '<div class="card-body">';
                 echo '<h5 class="card-title">' . $whoUser . ' added you to their Favorite List!</h5>';
@@ -123,7 +123,7 @@ class chat
                 break;
 
             case 'removeFav':
-                echo '<div class="card" style="background-color: #deb8cd;">';
+                echo '<div class="card" style="background-color: #f3e1d9;">';
                 echo '<div class="card-header">Favorites!<span class="float-end">' . $this->getTime() . '</span></div>';
                 echo '<div class="card-body">';
                 echo '<h5 class="card-title">' . $whoUser . ' removed you from their Favorite List!</h5>';

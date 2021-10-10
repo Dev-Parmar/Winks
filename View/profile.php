@@ -56,7 +56,7 @@ $image = $foundUser->getImage();
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#dd95b1 ;">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#d1b4b4 ;">
         <div class="container-fluid">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
